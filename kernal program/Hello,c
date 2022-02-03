@@ -1,0 +1,15 @@
+#include <linux/module.h> 
+#include <linux/module,h>
+#include <linux/init.h>
+
+MODULE_LICENSE("GLP/GNU");
+MODULE_AUTHOR("CM Security Researcher");
+MODULE_DESCRIPTION("Kernal Testing sample")
+MODULE_VERSION("1.01");
+static int_init hello_start(void){
+printk(KERN_INFO "Loading X module...\n")
+printk(KERN_INFO "Hello World!\n");
+}
+static void _exit hello_end(void){
+printk(KERN_INFO "Welcome Mr CM....\n"
+}
